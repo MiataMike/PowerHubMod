@@ -1,0 +1,8 @@
+# PowerHubModule
+Simple fused digital switching
+
+Connect multiple modules together with a bus bar for a custom fusebox. Ground the control pin to turn on, or bypass the MOSFET with 14awg wire for constant power
+
+For trouble-free operation, it is highly recommended that you protect the Module's FET with a TVS diode like MPN: TP6KE22A or SM30T18AY
+
+Inductive loads like relays without flyback diodes can cause damaging voltage spikes when shut off 
