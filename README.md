@@ -1,6 +1,8 @@
 # PowerHubModule
 Simple fused digital switching
-
+Increased pad size for easier hand soldering
+![Before](Before.png)
+![After](After.png)
 ## Git contents
 Design files: 
 -- Schematic
@@ -15,7 +17,6 @@ Manufacturing files:
 
 ## Electrical Specifications
 Input voltage range: 2.5-20V
-Max current: 30A
 Maxiumum output voltage limit: 80V
 Gate capacitance: 4.5uF max
 
@@ -28,14 +29,14 @@ Inductive loads like relays without flyback diodes can cause damaging voltage sp
 
 
 ## Future ideas
-Increase pad size for easier soldering
+Increase pad size for easier soldering (COMPLETE)
 Built-in slew rate limiting resistor on gate
 Locking/secure connector for gate control line
 Built-in TVS w/ parallel ground bus bar
 
 ## Contact info
 Author: Michael Turner
-Email: mwt@sbcglobal.net
+Email: me@Michael-Turner.ee
 License:
 This project is licensed under the CERN Open Hardware License v2 – Strongly Reciprocal (CERN-OHL-S).
 
