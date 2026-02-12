@@ -1,8 +1,42 @@
 # PowerHubModule
 Simple fused digital switching
+Increased pad size for easier hand soldering
+## Git contents
+Design files: 
+-- Schematic
+-- Fusion360 native project files
+-- 3D model .obj
+-- electrical library for custom parts
+-- Dimensional drawing
+
+Manufacturing files:
+-- Gerbers for PCB fab
+-- BOM for ordering from Digikey
+
+## Electrical Specifications
+Input voltage range: 2.5-20V
+Maxiumum output voltage limit: 80V
+Gate capacitance: 4.5uF max
+
 
 Connect multiple modules together with a bus bar for a custom fusebox. Ground the control pin to turn on, or bypass the MOSFET with 14awg wire for constant power
 
 For trouble-free operation, it is highly recommended that you protect the Module's FET with a TVS diode like MPN: TP6KE22A or SM30T18AY
 
 Inductive loads like relays without flyback diodes can cause damaging voltage spikes when shut off 
+
+
+## Future ideas
+Increase pad size for easier soldering (COMPLETE)
+Built-in slew rate limiting resistor on gate
+Locking/secure connector for gate control line
+Built-in TVS w/ parallel ground bus bar
+
+## Contact info
+Author: Michael Turner
+Email: me@Michael-Turner.ee
+License:
+This project is licensed under the CERN Open Hardware License v2 – Strongly Reciprocal (CERN-OHL-S).
+
+You are free to use, modify, and manufacture this design, provided that any distributed modifications
+are released under the same license.
