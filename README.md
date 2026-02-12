@@ -1,8 +1,6 @@
 # PowerHubModule
 Simple fused digital switching
-Increased pad size for easier hand soldering
-![Before](Before.png)
-![After](After.png)
+
 ## Git contents
 Design files: 
 -- Schematic
@@ -30,6 +28,10 @@ Inductive loads like relays without flyback diodes can cause damaging voltage sp
 
 ## Future ideas
 Increase pad size for easier soldering (COMPLETE)
+
+![Before](Before.png)
+![After](After.png)
+
 Built-in slew rate limiting resistor on gate
 Locking/secure connector for gate control line
 Built-in TVS w/ parallel ground bus bar
